@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritma</title>
+</head>
+<body>
+    <script>
+        // tulis codingan javascript
+        // cara membuat variabel di javascript
+        // let/const namaVariabel + nilai;
+
+        let Panjang = 60;
+        let Lebar = 40;
+        //mencari luas persegi panjang
+        Luas=Panjang*Lebar
+        console.log(Luas)
+
+        
+        const phi = 3.14;
+        let r = 10;
+        luas=phi*r*r
+        console.log(`luas lingkaran dengan jari jari 10 ${luas}`)
+        console.log(luas)
+
+
+        let panjang = 200;
+        let lebar = 150;
+        let keliling=2*panjang+2*lebar
+        console.log(keliling)
+
+        let alas = 70;
+        let tinggi = 40;
+        luassegitiga=(1/2)*alas*tinggi
+        console.log(`luas segitiga ${luassegitiga}`)
+
+        let a= 6000;
+
+        if(a>=17){
+            console.log("Silahkan menonton")
+        }
+
+        else
+        console.log("Tidak boleh menonton")
+
+        let b= 97;
+
+        if(b<0){
+            console.log("negatif")
+            if (b%2==0){
+                console.log("Genap")
+            }
+            else {
+                console.log("Ganjil")
+            }
+        }
+
+        else{
+            console.log("positif")
+            if (b%2==0){
+                console.log("Genap")
+            }
+            else{ 
+                console.log("Ganjil")
+            }
+        }
+        
+        // // negatif positif
+
+        let sendok= 100000;
+        let garpu= 50000;
+        let piring = 20000;
+       
+        let totalharga = sendok + garpu + piring
+        if (totalharga > 100000){
+            let diskon = 30/100 * totalharga;
+            let setelahdiskon =totalharga - diskon;
+            console.log("Total belanjaan adalah " + totalharga)
+            // console.log("Karena total belanjaan anda mencapai 100000 maka anda mendapatkan diskon 25%")
+            console.log("Jadi total harga yang harus dibayar adalah " + setelahdiskon)
+        }else {
+            console.log("Harga total barang adalah " + totalharga)
+        }
+
+        let tinggiAir = 2;
+        let status ;
+
+        if(tinggiAir <= 500) {
+            status = "status aman";
+        } else if (tinggiAir <= 600) {
+            status = "status waspada";
+        } else if (tinggiAir <= 650) {
+            status = "status siaga 2";
+        } else if (tinggiAir > 650) {
+            status = "status siaga 1";
+        } else {
+            status = "selesai"
+        }
+
+        console.log(tinggiAir)
+        console.log(status)
+
+        // let jumlahSiswa = 15;
+        // let r = (mtk + indo + ingg + dpk + agama)/5;
+        // let k ;
+        // let mtk ;
+        // let indo ;
+        // let ingg ;
+        // let dpk ;
+        // let agama ;
+
+        // if(r>475) {
+        //     console.log{"juara kelas"}
+        //     if(k==100%)
+        //         console.log("Juara kelas")
+        // }
+
+        let c = 40;
+        let fahrenheit = ( c * 9/5 ) + 32
+        console.log(fahrenheit)
+
+        let jam= 9;
+        let menit= jam * 60;
+        console.log(menit)
+
+        let kg= 19;
+        let g= kg * 1000;
+        console.log(g + "g")
+ 
+    </script>
+</body>
+</html>
